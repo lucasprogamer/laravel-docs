@@ -351,7 +351,7 @@ Em seguida, a tabela deve ser criada para guardar os tokens de reset de senhas. 
 <a name="resetting-routing"></a>
 ### Rotas
 
-Laravel inclui um `Auth\PasswordController` que contém a lógica necessária para reser as senhas. No entanto, você terá que definir rotas para apontar as requisições para este controller:
+Laravel inclui um `Auth\PasswordController` que contém a lógica necessária para resetar as senhas. No entanto, você terá que definir rotas para apontar as requisições para este controller:
 
     // Rotas para solicitar trocar de senha...
     Route::get('password/email', 'PasswordController@getEmail');
